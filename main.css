@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     /*font-size: 13.5px;*/
+    font-weight: bold;
 }
 .container-fluid .row .col-md-4 p{
     top: 0;
@@ -16,34 +17,37 @@ margin-top: 25vw;
     margin-left: 10vw;
 }
 /*col-md-6*/
-.container-fluid .row .col-md-6{
-    margin-top: 23vw;
+.container-fluid .row .col-md-6 img{
+width: 50vw;
+    height: 50vw;
 }
 /*//media mabilniga moslashtirish*/
 /*text mabilni*/
 @media screen and (max-width: 700px){
    .container-fluid .row .col-md-4 {
-text-align: center;
-       margin-left: 0;
-       top: 0;
+line-height: 2px;
+       margin-left: 5.9vw;
    }
 }
 @media screen and (max-width: 700px){
    .container-fluid .row .col-md-4 p{
-margin-left: 0;
        font-size: 15vw;
    }
 }
 @media screen and (max-width: 700px){
    .container-fluid .row .col-md-4 h1{
-margin-left: 0;
        font-size: 15vw;
    }
 }
 /*col-md-6*/
 @media screen and (max-width: 700px){
     .container-fluid .row .col-md-6{
-       margin: 0;
-        padding: 0;
+        text-align: center;
+    }
+}/*col-md-6*/
+@media screen and (max-width: 700px){
+    .container-fluid .row .col-md-6 img{
+        width: 80vw;
+        height: 90vw;
     }
 }
